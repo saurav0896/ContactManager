@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": "d529643a-45f5-417d-a67c-659879303116",
+      "name": "Saurav Singh",
+      "email": "saurav0896@gmail.com"
+    },
+    {
+      "id": "3af22984-d9fe-43d9-8643-589492615838",
+      "name": "Shashank Singh",
+      "email": "shashank@gmail.com"
+    },
+    {
+      "id": "1adeee46-6e0d-44f9-ab95-6c704229e9ce",
+      "name": "Sunita Singh",
+      "email": "sunita@gmail.com"
+    }
+  ]
+}
