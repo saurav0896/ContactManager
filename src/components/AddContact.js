@@ -36,16 +36,16 @@ const AddContact = (props) => {
         }
 
         return (
-            <div className="ui main center" style={{border: "1px solid grey", padding: "20px", backgroundColor:"white"}}>
+            <div className="ui main center" style={{ padding: "20px", backgroundColor:"white"}}>
                 <h2 className="ui aligned center header">Add Contact</h2>
                 <form className="ui form" onSubmit={add}>
                     <div className="field">
                         <label>Name</label>
-                        <input type="text" style={{border:"1px solid grey"}} name="name" value={state.name} placeholder="Name" onChange={ setName} />
+                        <input type="text" style={{border:"1px solid #C2DBEC"}} name="name" value={state.name} placeholder="Name" onChange={ setName} />
                     </div>
                     <div className="field">
                         <label>Emaill</label> 
-                        <input type="email" style={{border:"1px solid grey"}} name="email" value={state.email} placeholder="Email"  onChange={ setEmail} />
+                        <input type="email" style={{border:"1px solid #C2DBEC"}} name="email" value={state.email} placeholder="Email"  onChange={ setEmail} />
                     </div>
                     <div style={{display: "flex"}}>
                     <button className="ui button blue">Add Contact</button>
